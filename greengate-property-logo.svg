@@ -1,0 +1,38 @@
+<svg width="800" height="240" viewBox="0 0 800 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GreenGate Property logo</title>
+  <desc id="desc">Minimal premium property logo with a house symbol and a subtle buying and selling concept in green, dark green, and soft gold.</desc>
+
+  <defs>
+    <style>
+      .brand-dark { fill: #123C32; }
+      .brand-green { fill: #0E8A5D; }
+      .brand-gold { fill: #D4B06A; }
+      .stroke-brand { stroke: #123C32; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-gold { stroke: #D4B06A; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+      .name { font-family: Inter, "Segoe UI", Arial, sans-serif; font-weight: 700; }
+      .tag { font-family: Inter, "Segoe UI", Arial, sans-serif; font-weight: 700; letter-spacing: 0.12em; }
+    </style>
+  </defs>
+
+  <g transform="translate(18,18)">
+    <rect x="0" y="0" width="190" height="190" rx="42" fill="#123C32"/>
+
+    <path d="M42 95L95 52L148 95" class="stroke-gold"/>
+    <path d="M58 87V138C58 143.523 62.477 148 68 148H122C127.523 148 132 143.523 132 138V87" class="brand-gold"/>
+
+    <path d="M92 101L122 101" class="stroke-gold"/>
+    <path d="M78 117H112" class="stroke-gold"/>
+
+    <path d="M140 72L166 72" class="stroke-gold"/>
+    <path d="M152 58V86" class="stroke-gold"/>
+    <circle cx="152" cy="72" r="8" fill="#D4B06A"/>
+
+    <path d="M95 148V120H120V148" class="brand-dark" fill="#F7FAF8" opacity="0.96"/>
+  </g>
+
+  <g transform="translate(240,52)">
+    <text x="0" y="58" class="name" font-size="56" fill="#123C32">GreenGate</text>
+    <text x="2" y="96" class="tag" font-size="22" fill="#0E8A5D">PROPERTY</text>
+    <line x1="0" y1="124" x2="260" y2="124" stroke="#DDEAE2" stroke-width="2"/>
+  </g>
+</svg>
