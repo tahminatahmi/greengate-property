@@ -10,7 +10,6 @@ export default function Footer() {
           <p className="mt-5 text-sm leading-7 text-emerald-50/80">
             Helping people across the UK find, sell and move home with more confidence.
           </p>
-          <p className="mt-2 text-sm text-emerald-200">greengateproperty.co.uk</p>
         </div>
 
         {[['Explore', [['Home', '/'], ['About', '/about']]], ['Company', [['About us', '/about'], ['Contact', '/contact']]], ['Support', [['Help centre', '/contact'], ['Privacy', '/about']]]].map(([h, links]) => (
