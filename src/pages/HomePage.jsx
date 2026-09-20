@@ -5,13 +5,13 @@ import SearchBar from "../components/SearchBar";
 import { properties } from "../data/properties";
 
 const featureStats = [
-  { label: "Local knowledge", text: "Deep roots in East London with unrivalled knowledge of local areas." },
-  { label: "Personal service", text: "A friendly, dedicated team who put your needs first." },
-  { label: "Professional marketing", text: "Stunning photography, targeted campaigns and maximum exposure." },
-  { label: "Clear communication", text: "Honest advice and regular updates at every step." },
+  { label: "Property sourcing", text: "GreenGate identifies potential property investment opportunities." },
+  { label: "Auction purchases", text: "The company purchases residential or commercial property, including at auction." },
+  { label: "In-house renovation", text: "Properties are improved or repaired using GreenGate's own team." },
+  { label: "Rental income", text: "Retained properties are let to tenants and generate rental income." },
 ];
 
-const processSteps = ["Valuation", "Marketing", "Viewings", "Offers", "Completion"];
+const processSteps = ["Source opportunity", "Buy property", "Arrange finance", "Renovate", "Retain and let"];
 
 const areaCards = [
   ["Romford", "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"],
@@ -36,12 +36,12 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(16,185,129,0.16),_transparent_35%)]" />
             <div className="relative grid items-center gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:py-6">
               <div className="py-6 lg:py-10">
-                <p className="text-xs font-bold uppercase tracking-[0.22em] text-emerald-700">Local expertise. Brighter moves.</p>
-                <h1 className="mt-4 max-w-xl text-5xl font-black leading-[0.95] tracking-[-0.04em] text-slate-900 xl:text-7xl">Opening the door to your next move.</h1>
-                <p className="mt-5 max-w-lg text-lg leading-8 text-slate-600">Helping buyers and sellers move with confidence through straight-talking advice, personal service and local expertise.</p>
+                <p className="text-xs font-bold uppercase tracking-[0.22em] text-emerald-700">Property investment and letting</p>
+                <h1 className="mt-4 max-w-xl text-5xl font-black leading-[0.95] tracking-[-0.04em] text-slate-900 xl:text-7xl">Building a property portfolio for the long term.</h1>
+                <p className="mt-5 max-w-lg text-lg leading-8 text-slate-600">GreenGate Property Ltd sources, improves, retains and lets property as part of its investment business.</p>
                 <div className="mt-7 flex flex-wrap gap-4">
-                  <Link to="/properties" className="inline-flex items-center justify-center rounded-full bg-emerald-700 px-5 py-3 font-semibold text-white shadow-lg shadow-emerald-200">Find a Property <ArrowRight size={16} className="ml-2" /></Link>
-                  <Link to="/contact" className="inline-flex items-center justify-center rounded-full border border-emerald-300 bg-white px-5 py-3 font-semibold text-emerald-800">Book a Free Valuation</Link>
+                  <Link to="/properties" className="inline-flex items-center justify-center rounded-full bg-emerald-700 px-5 py-3 font-semibold text-white shadow-lg shadow-emerald-200">Explore our portfolio <ArrowRight size={16} className="ml-2" /></Link>
+                  <Link to="/about" className="inline-flex items-center justify-center rounded-full border border-emerald-300 bg-white px-5 py-3 font-semibold text-emerald-800">How we invest</Link>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ export default function HomePage() {
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
             <h2 className="text-4xl font-black tracking-[-0.04em] text-slate-900">Featured Properties</h2>
-            <p className="mt-2 text-slate-600">A handpicked selection of beautiful homes across East London and beyond.</p>
+            <p className="mt-2 text-slate-600">A selection of properties held within the GreenGate portfolio.</p>
           </div>
           <Link to="/properties" className="text-sm font-semibold text-slate-700">View all properties →</Link>
         </div>
@@ -81,10 +81,10 @@ export default function HomePage() {
           </div>
 
           <div className="text-center">
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-700">Sell with confidence</p>
-            <h3 className="mt-3 text-5xl font-black leading-[1] tracking-[-0.04em] text-slate-900">Thinking of selling?</h3>
-            <div className="mt-4 text-lg text-slate-700">Start with a free, no-obligation valuation.</div>
-            <Link to="/contact" className="mt-6 inline-flex items-center justify-center rounded-full bg-emerald-700 px-5 py-3 font-semibold text-white">Book Your Free Valuation</Link>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-700">Our business model</p>
+            <h3 className="mt-3 text-5xl font-black leading-[1] tracking-[-0.04em] text-slate-900">Buy, improve, retain, let.</h3>
+            <div className="mt-4 text-lg text-slate-700">We invest in property and earn income from letting it.</div>
+            <Link to="/about" className="mt-6 inline-flex items-center justify-center rounded-full bg-emerald-700 px-5 py-3 font-semibold text-white">Learn about GreenGate</Link>
           </div>
 
           <div className="rounded-[24px] border border-emerald-200 bg-white/60 p-5 text-center shadow-sm">
@@ -95,7 +95,7 @@ export default function HomePage() {
       </section>
 
       <section className="container py-12">
-        <h2 className="text-4xl font-black tracking-[-0.04em] text-slate-900">Why Green Gate Property?</h2>
+        <h2 className="text-4xl font-black tracking-[-0.04em] text-slate-900">What GreenGate Property does</h2>
         <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {featureStats.map((item) => (
             <div key={item.label} className="rounded-[22px] border border-slate-200 bg-white p-6 shadow-sm">
@@ -110,8 +110,8 @@ export default function HomePage() {
       </section>
 
       <section className="container py-12">
-        <h2 className="text-4xl font-black tracking-[-0.04em] text-slate-900">Selling with Green Gate</h2>
-        <p className="mt-2 text-slate-600">A straightforward process, with you at every step.</p>
+        <h2 className="text-4xl font-black tracking-[-0.04em] text-slate-900">Our property investment model</h2>
+        <p className="mt-2 text-slate-600">How GreenGate creates value from property.</p>
         <div className="mt-8 grid gap-4 md:grid-cols-5">
           {processSteps.map((step, index) => (
             <div key={step} className="rounded-[18px] border border-emerald-100 bg-[#edf9f2] p-4 text-center">
@@ -126,7 +126,7 @@ export default function HomePage() {
         <div className="grid gap-8 rounded-[28px] bg-white p-6 shadow-sm ring-1 ring-slate-200 lg:grid-cols-[1.1fr_0.9fr] lg:p-8">
           <div>
             <h2 className="text-4xl font-black tracking-[-0.04em] text-slate-900">Property is personal. So are we.</h2>
-            <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">We’re a local, independent estate agency with a passion for people and property. Our experienced team is here to make your move simpler, smoother and more rewarding.</p>
+            <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">GreenGate Property Ltd owns or leases property, improves it, and earns income by letting it to tenants.</p>
             <button className="mt-7 inline-flex items-center justify-center rounded-full bg-emerald-700 px-5 py-3 font-semibold text-white">Meet Our Team</button>
           </div>
 
@@ -161,12 +161,12 @@ export default function HomePage() {
         <div className="rounded-[28px] bg-[#0d3d32] px-6 py-8 text-white lg:px-10">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-200">Your next chapter starts here</p>
-              <h2 className="mt-3 text-4xl font-black tracking-[-0.04em] text-white">Ready to make your move?</h2>
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-200">GreenGate Property Ltd</p>
+                <h2 className="mt-3 text-4xl font-black tracking-[-0.04em] text-white">Property investment and letting.</h2>
             </div>
             <div className="flex flex-wrap gap-3">
-              <Link to="/contact" className="rounded-full bg-emerald-600 px-5 py-3 font-semibold text-white">Book a Valuation</Link>
-              <Link to="/contact" className="rounded-full border border-white/30 bg-transparent px-5 py-3 font-semibold text-white">Contact Green Gate</Link>
+              <Link to="/properties" className="rounded-full bg-emerald-600 px-5 py-3 font-semibold text-white">View portfolio</Link>
+              <Link to="/contact" className="rounded-full border border-white/30 bg-transparent px-5 py-3 font-semibold text-white">Contact GreenGate</Link>
             </div>
           </div>
         </div>

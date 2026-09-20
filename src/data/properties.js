@@ -8,3 +8,5 @@ export const formatPrice = (n) =>
     maximumFractionDigits: 0,
   }).format(n);
 
+export const formatRent = (n) => `${formatPrice(n)} pcm`;
+

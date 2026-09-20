@@ -38,23 +38,23 @@ export default function SearchBar({ onSearch, compact = false }) {
           </select>
         </Field>
 
-        <Field label="Min Price">
+        <Field label="Min rent">
           <select value={form.min} onChange={(e) => set("min", e.target.value)} className="w-full border-0 bg-transparent text-sm font-semibold text-slate-700 focus:outline-none">
-            <option value="">Any price</option>
-            <option value="250000">£250k</option>
-            <option value="500000">£500k</option>
-            <option value="750000">£750k</option>
-            <option value="1000000">£1m</option>
+            <option value="">Any rent</option>
+            <option value="1500">£1,500</option>
+            <option value="2000">£2,000</option>
+            <option value="2500">£2,500</option>
+            <option value="3000">£3,000</option>
           </select>
         </Field>
 
-        <Field label="Max Price">
+        <Field label="Max rent">
           <select value={form.max} onChange={(e) => set("max", e.target.value)} className="w-full border-0 bg-transparent text-sm font-semibold text-slate-700 focus:outline-none">
-            <option value="">Any price</option>
-            <option value="500000">£500k</option>
-            <option value="750000">£750k</option>
-            <option value="1000000">£1m</option>
-            <option value="2000000">£2m+</option>
+            <option value="">Any rent</option>
+            <option value="2000">£2,000</option>
+            <option value="2500">£2,500</option>
+            <option value="3000">£3,000</option>
+            <option value="4000">£4,000+</option>
           </select>
         </Field>
 
