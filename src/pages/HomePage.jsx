@@ -68,9 +68,12 @@ export default function HomePage() {
         </div>
 
         <div className="grid gap-6 lg:grid-cols-3">
-          {properties.slice(0, 3).map((property) => (
-            <PropertyCard key={property.id} property={property} favourite={false} onFavourite={() => {}} />
-          ))}
+          {[5, 7, 4]
+            .map((id) => properties.find((property) => property.id === id))
+            .filter(Boolean)
+            .map((property) => (
+              <PropertyCard key={property.id} property={property} favourite={false} onFavourite={() => {}} />
+            ))}
         </div>
       </section>
 
