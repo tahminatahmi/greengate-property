@@ -123,25 +123,6 @@ export default function HomePage() {
       </section>
 
       <section className="container py-12">
-        <div className="grid gap-8 rounded-[28px] bg-white p-6 shadow-sm ring-1 ring-slate-200 lg:grid-cols-[1.1fr_0.9fr] lg:p-8">
-          <div>
-            <h2 className="text-4xl font-black tracking-[-0.04em] text-slate-900">Property is personal. So are we.</h2>
-            <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">GreenGate Property Ltd owns or leases property, improves it, and earns income by letting it to tenants.</p>
-            <button className="mt-7 inline-flex items-center justify-center rounded-full bg-emerald-700 px-5 py-3 font-semibold text-white">Meet Our Team</button>
-          </div>
-
-          <div className="overflow-hidden rounded-[24px] bg-gradient-to-r from-emerald-50 to-white p-4">
-            <div className="flex items-center justify-center gap-4 rounded-[18px] bg-white p-4 shadow-sm">
-              <div className="h-20 w-20 rounded-full bg-slate-200 bg-[url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80')] bg-cover bg-center" />
-              <div className="h-20 w-20 rounded-full bg-slate-200 bg-[url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80')] bg-cover bg-center" />
-              <div className="h-20 w-20 rounded-full bg-slate-200 bg-[url('https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80')] bg-cover bg-center" />
-            </div>
-            <p className="mt-5 text-right text-xl italic text-slate-700">A local team with a big passion.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="container py-12">
         <div className="mb-6 flex items-end justify-between gap-4">
           <h2 className="text-4xl font-black tracking-[-0.04em] text-slate-900">Areas we cover</h2>
           <Link to="/properties" className="text-sm font-semibold text-slate-700">View properties in your area →</Link>
