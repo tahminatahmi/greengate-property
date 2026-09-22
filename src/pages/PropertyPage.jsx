@@ -35,8 +35,7 @@ export default function PropertyPage({ properties, favourites, toggle }) {
           <div className="flex justify-between gap-4">
             <div>
               <span className="rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-bold text-emerald-700">PORTFOLIO PROPERTY</span>
-              <h1 className="mt-4 text-4xl font-bold">{property.title}</h1>
-              <p className="mt-2 flex gap-2 text-slate-500"><MapPin size={18} />{property.location}</p>
+              <p className="mt-4 flex gap-2 text-slate-500"><MapPin size={18} />{property.location}</p>
             </div>
             <button onClick={() => toggle(property.id)} className="flex h-fit items-center gap-2 rounded-xl border px-4 py-3 font-bold"><Heart className={saved ? "fill-rose-500 text-rose-500" : ""} />{saved ? "Saved" : "Save"}</button>
           </div>
