@@ -5,10 +5,10 @@
     "location": "20 Marine Parade West, Clacton-on-Sea, Essex CO15 1JZ",
     "city": "Clacton-on-Sea",
     "price": 285000,
-    "rent": 1650,
+    "rent": 8000,
     "type": "Hotel",
-    "beds": 17,
-    "baths": 0,
+    "beds": 18,
+    "baths": 22,
     "image": "/assets/greengateproject/7/Front%20Colour.jpeg",
     "gallery": [
       "/assets/greengateproject/7/Front%20Colour.jpeg",
@@ -22,8 +22,8 @@
       "/assets/greengateproject/7/206.1.jpg",
       "/assets/greengateproject/7/Front%20Black%20%26%20White.jpeg"
     ],
-    "description": "A seafront redevelopment project converting an existing residential property into a 17-bedroom hotel. GreenGate Property Ltd is repositioning the site for hospitality use with refurbishment and conversion works underway.",
-    "features": ["Seafront hotel conversion", "17 bedrooms", "Redevelopment project", "Hospitality use"],
+    "description": "A seafront redevelopment project converting an existing residential property into an 18-bedroom hotel with 22 toilet facilities. Greengate Property Ltd is repositioning the site for hospitality use with refurbishment and conversion works underway.",
+    "features": ["Seafront hotel conversion", "18 bedrooms", "22 toilets", "Redevelopment project"],
     "added": "2026-09-18"
   },
   {
@@ -50,7 +50,7 @@
       "/assets/greengateproject/Storage.jpeg",
       "/assets/greengateproject/Toilet.jpeg"
     ],
-    "description": "A commercial property recently purchased by GreenGate Property Ltd and currently undergoing full renovation and refurbishment.",
+    "description": "A commercial property recently purchased by Greengate Property Ltd and currently undergoing full renovation and refurbishment.",
     "features": ["Commercial property", "Recently purchased", "Full renovation", "Refurbishment in progress"],
     "added": "2026-09-08"
   },
@@ -60,10 +60,10 @@
     "location": "24 & 24A London Road, Wickford, Essex SS12 0AN",
     "city": "Wickford",
     "price": 575000,
-    "rent": 3500,
+    "rent": 4100,
     "type": "Semi-commercial",
-    "beds": 1,
-    "baths": 1,
+    "beds": 6,
+    "baths": 3,
     "image": "/assets/greengateproject/1_1.jpeg",
     "gallery": [
       "/assets/greengateproject/1_1.jpeg",
@@ -77,8 +77,8 @@
       "/assets/greengateproject/9_1.jpeg",
       "/assets/greengateproject/10_1.jpeg"
     ],
-    "description": "Purchased at auction and fully renovated. The ground floor was converted into a commercial shop, with a separate residential flat created on the first floor and rear.",
-    "features": ["Purchased at auction", "Full renovation", "Commercial shop", "Separate residential flat"],
+    "description": "Purchased at auction and fully renovated. The ground floor was converted into a commercial shop, with a separate residential flat created on the first floor and rear, and the overall property offers six bedrooms and three toilets.",
+    "features": ["Purchased at auction", "Full renovation", "Commercial shop", "Six bedrooms", "Three toilets"],
     "added": "2026-09-12"
   },
   {
@@ -87,10 +87,10 @@
     "location": "70 Hereford Walk, Basildon, Essex SS14 3RE",
     "city": "Basildon",
     "price": 1250000,
-    "rent": 3250,
-    "type": "Detached",
+    "rent": 1900,
+    "type": "Maisonette flat",
     "beds": 4,
-    "baths": 3,
+    "baths": 2,
     "image": "/assets/greengateproject/IMG-20250522-WA0010.jpg",
     "gallery": [
       "/assets/greengateproject/IMG-20250522-WA0010.jpg",
@@ -107,8 +107,8 @@
       "/assets/greengateproject/IMG-20250522-WA0023.jpg",
       "/assets/greengateproject/IMG-20250522-WA0024.jpg"
     ],
-    "description": "Purchased at auction, extensively renovated and improved by GreenGate Property Ltd, then rented to a family.",
-    "features": ["Purchased at auction", "Extensively renovated", "Fully improved", "Rented to a family"],
+    "description": "Purchased at auction, extensively renovated and improved by Greengate Property Ltd, then let as a four-bedroom maisonette flat with two toilets.",
+    "features": ["Purchased at auction", "Extensively renovated", "Four-bedroom maisonette flat", "Two toilets"],
     "added": "2026-09-14"
   },
   {
@@ -117,7 +117,7 @@
     "location": "4 Clayburn End, Basildon, Essex SS14 1QA",
     "city": "Basildon",
     "price": 395000,
-    "rent": 4800,
+    "rent": 4000,
     "type": "HMO",
     "beds": 6,
     "baths": 3,
@@ -134,8 +134,8 @@
       "/assets/greengateproject/12.jpeg",
       "/assets/greengateproject/1.jpeg"
     ],
-    "description": "Purchased at auction and fully renovated, including a loft conversion. The original three-bedroom house was converted into a six-bedroom HMO (House in Multiple Occupation).",
-    "features": ["Purchased at auction", "Full renovation", "Loft conversion", "Six-bedroom HMO"],
+    "description": "Purchased at auction and fully renovated, including a loft conversion. The original three-bedroom house was converted into a six-bedroom HMO (House in Multiple Occupation) with three toilets.",
+    "features": ["Purchased at auction", "Full renovation", "Loft conversion", "Six-bedroom HMO", "Three toilets"],
     "added": "2026-09-16"
   },
   {
@@ -146,8 +146,8 @@
     "price": 825000,
     "rent": 6000,
     "type": "Commercial",
-    "beds": 22,
-    "baths": 2,
+    "beds": 12,
+    "baths": 13,
     "image": "/assets/greengateproject/Backyeard.jpeg",
     "gallery": [
       "/assets/greengateproject/Backyeard.jpeg",
@@ -161,8 +161,8 @@
       "/assets/greengateproject/Bedroom.jpeg",
       "/assets/greengateproject/Front.jpeg"
     ],
-    "description": "A commercial property previously used as a 22-bed care home. GreenGate Property Ltd purchased it recently and is carrying out a full renovation and refurbishment.",
-    "features": ["Previously a 22-bed care home", "Commercial property", "Full renovation", "Refurbishment in progress"],
+    "description": "A commercial property previously used as a 12-bed care home. Greengate Property Ltd purchased it recently and is carrying out a full renovation and refurbishment with 13 toilets.",
+    "features": ["Previously a 12-bed care home", "Commercial property", "Full renovation", "13 toilets"],
     "added": "2026-09-10"
   },
   {
@@ -171,10 +171,10 @@
     "location": "17 Clayburn Circle, Basildon, Essex SS14 1PZ",
     "city": "Basildon",
     "price": 425000,
-    "rent": 4500,
+    "rent": 2500,
     "type": "Detached",
-    "beds": 5,
-    "baths": 3,
+    "beds": 4,
+    "baths": 2,
     "image": "/assets/greengateproject/3/Front.jpg",
     "gallery": [
       "/assets/greengateproject/3/Front.jpg",
@@ -188,8 +188,8 @@
       "/assets/greengateproject/3/Kitchen.jpg",
       "/assets/greengateproject/3/Starecase.jpeg"
     ],
-    "description": "We purchased this property at auction and carried out a full renovation. We converted the original three-bedroom house into a five-bedroom house.",
-    "features": ["Purchased at auction", "Full renovation", "Converted from 3 bedrooms to 5", "Five-bedroom home"],
+    "description": "We purchased this property at auction and carried out a full renovation. We converted the original three-bedroom house into a four-bedroom house with two toilets.",
+    "features": ["Purchased at auction", "Full renovation", "Converted from 3 bedrooms to 4", "Four-bedroom home", "Two toilets"],
     "added": "2026-09-21"
   }
 ]

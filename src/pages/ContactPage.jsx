@@ -10,8 +10,8 @@ export default function ContactPage(){
       <section className="container py-16 lg:py-20">
         <div className="rounded-[2rem] border border-emerald-100 bg-white p-8 shadow-lg shadow-emerald-100 sm:p-10 lg:p-14">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-emerald-700">Contact</p>
-          <h1 className="mt-4 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl">Get in touch with GreenGate</h1>
-          <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">Contact GreenGate Property about our investment and letting business.</p>
+          <h1 className="mt-4 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl">Get in touch with Greengate</h1>
+          <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">Contact Greengate Property about our investment and letting business.</p>
 
           <div className="mt-10 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="space-y-5 rounded-[1.5rem] bg-emerald-50 p-6">
@@ -33,10 +33,10 @@ export default function ContactPage(){
 
             <div className="rounded-[1.5rem] border border-emerald-100 bg-gradient-to-br from-emerald-600 to-emerald-800 p-6 text-white shadow-md shadow-emerald-200">
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-emerald-100">WhatsApp</p>
-              <h2 className="mt-4 text-2xl font-bold">Talk to GreenGate</h2>
-              <p className="mt-3 text-emerald-50/90">For questions about GreenGate Property Ltd and its investment and letting activities.</p>
+              <h2 className="mt-4 text-2xl font-bold">Talk to Greengate</h2>
+              <p className="mt-3 text-emerald-50/90">For questions about Greengate Property Ltd and its investment and letting activities.</p>
               <a
-                href="https://wa.me/15551234567?text=Hello%20GreenGate%20Property%2C%20I%20want%20to%20ask%20about%20your%20services."
+                href="https://wa.me/15551234567?text=Hello%20Greengate%20Property%2C%20I%20want%20to%20ask%20about%20your%20services."
                 target="_blank"
                 rel="noreferrer"
                 className="mt-6 inline-flex items-center rounded-full bg-white px-5 py-3 text-sm font-bold text-emerald-700 transition hover:bg-emerald-50"

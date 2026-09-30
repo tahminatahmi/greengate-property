@@ -1,5 +1,5 @@
 <svg width="800" height="240" viewBox="0 0 800 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">GreenGate Property logo</title>
+  <title id="title">Greengate Property logo</title>
   <desc id="desc">Minimal premium property logo with a house symbol and a subtle buying and selling concept in green, dark green, and soft gold.</desc>
 
   <defs>
@@ -31,7 +31,7 @@
   </g>
 
   <g transform="translate(240,52)">
-    <text x="0" y="58" class="name" font-size="56" fill="#123C32">GreenGate</text>
+    <text x="0" y="58" class="name" font-size="56" fill="#123C32">Greengate</text>
     <text x="2" y="96" class="tag" font-size="22" fill="#0E8A5D">PROPERTY</text>
     <line x1="0" y1="124" x2="260" y2="124" stroke="#DDEAE2" stroke-width="2"/>
   </g>

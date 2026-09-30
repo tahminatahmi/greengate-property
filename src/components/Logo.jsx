@@ -7,13 +7,13 @@ export default function Logo({ dark = false, compact = false }) {
     : "/greengate-property-logo.svg?v=2";
 
   return (
-    <Link to="/" className="inline-flex items-center" aria-label="GreenGate Property home">
+    <Link to="/" className="inline-flex items-center" aria-label="Greengate Property home">
       <img
         src={src}
-        alt="GreenGate Property logo"
+        alt="Greengate Property logo"
         className={svgClass}
       />
-      <span className="sr-only">GreenGate Property</span>
+      <span className="sr-only">Greengate Property</span>
     </Link>
   );
 }

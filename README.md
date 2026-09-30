@@ -1,4 +1,4 @@
-# GreenGate Property
+# Greengate Property
 
 A responsive UK property marketplace built with React, Vite, JavaScript, Tailwind CSS, React Router and Lucide icons.
 

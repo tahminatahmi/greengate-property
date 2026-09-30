@@ -11,7 +11,7 @@ export default function PropertyPage({ properties, favourites, toggle }) {
   if (!property) return <div className="container py-24 text-center"><h1 className="text-3xl font-bold">Property not found</h1></div>;
 
   const saved = favourites.includes(property.id);
-  const whatsappLink = `https://wa.me/15551234567?text=${encodeURIComponent(`Hello GreenGate Property, I have a question about ${property.title} in ${property.location}.`)}`;
+  const whatsappLink = `https://wa.me/15551234567?text=${encodeURIComponent(`Hello Greengate Property, I have a question about ${property.title} in ${property.location}.`)}`;
   const gallery = property.gallery?.length ? property.gallery : [property.image];
   const previousImage = () => setActiveImage((current) => (current - 1 + gallery.length) % gallery.length);
   const nextImage = () => setActiveImage((current) => (current + 1) % gallery.length);
@@ -34,7 +34,6 @@ export default function PropertyPage({ properties, favourites, toggle }) {
         <div>
           <div className="flex justify-between gap-4">
             <div>
-              <span className="rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-bold text-emerald-700">PORTFOLIO PROPERTY</span>
               <p className="mt-4 flex gap-2 text-slate-500"><MapPin size={18} />{property.location}</p>
             </div>
             <button onClick={() => toggle(property.id)} className="flex h-fit items-center gap-2 rounded-xl border px-4 py-3 font-bold"><Heart className={saved ? "fill-rose-500 text-rose-500" : ""} />{saved ? "Saved" : "Save"}</button>
@@ -46,7 +45,7 @@ export default function PropertyPage({ properties, favourites, toggle }) {
           <div className="mt-5 grid gap-4 sm:grid-cols-2">{property.features?.map((feature) => <div key={feature} className="flex items-center gap-3 rounded-xl bg-slate-50 p-4"><Check className="text-emerald-700" size={18} /><span>{feature}</span></div>)}</div>
         </div>
         <aside className="self-start rounded-2xl border border-emerald-100 bg-emerald-50 p-4 shadow-sm">
-          <div className="rounded-xl bg-white p-4"><p className="text-[10px] font-bold uppercase tracking-[0.2em] text-emerald-700">Property owner</p><h3 className="mt-2 text-xl font-bold text-slate-900">GreenGate Property Ltd</h3><p className="mt-1 text-sm text-slate-600">Property investment and letting</p><div className="mt-4 flex items-center gap-2 text-sm text-slate-700"><MapPin className="text-emerald-700" size={16} /><span>{property.location}</span></div></div>
+          <div className="rounded-xl bg-white p-4"><p className="text-[10px] font-bold uppercase tracking-[0.2em] text-emerald-700">Property owner</p><h3 className="mt-2 text-xl font-bold text-slate-900">Greengate Property Ltd</h3><p className="mt-1 text-sm text-slate-600">Property investment and letting</p><div className="mt-4 flex items-center gap-2 text-sm text-slate-700"><MapPin className="text-emerald-700" size={16} /><span>{property.location}</span></div></div>
           <a href={whatsappLink} target="_blank" rel="noreferrer" className="btn-primary mt-4 block w-full text-center">Ask about this property</a>
         </aside>
       </div>
