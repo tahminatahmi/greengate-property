@@ -11,7 +11,7 @@ export default function PropertyPage({ properties, favourites, toggle }) {
   if (!property) return <div className="container py-24 text-center"><h1 className="text-3xl font-bold">Property not found</h1></div>;
 
   const saved = favourites.includes(property.id);
-  const whatsappLink = `https://wa.me/15551234567?text=${encodeURIComponent(`Hello Greengate Property, I have a question about ${property.title} in ${property.location}.`)}`;
+  const whatsappLink = `https://wa.me/447723351297?text=${encodeURIComponent(`Hello Greengate Property, I have a question about ${property.title} in ${property.location}.`)}`;
   const gallery = property.gallery?.length ? property.gallery : [property.image];
   const previousImage = () => setActiveImage((current) => (current - 1 + gallery.length) % gallery.length);
   const nextImage = () => setActiveImage((current) => (current + 1) % gallery.length);

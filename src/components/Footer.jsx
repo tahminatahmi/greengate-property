@@ -29,9 +29,17 @@ export default function Footer() {
 
         <div>
           <p className="text-sm font-bold text-white">Talk to us</p>
-          <a href="https://wa.me/15551234567?text=Hello%20Greengate%20Property%2C%20I%20want%20to%20ask%20about%20your%20services." target="_blank" rel="noreferrer" className="mt-4 flex items-start gap-3 text-sm leading-6 text-emerald-100/80 transition hover:text-white">
+          <a href="https://wa.me/447723351297?text=Hello%20Greengate%20Property%2C%20I%20want%20to%20ask%20about%20your%20services." target="_blank" rel="noreferrer" className="mt-4 flex items-start gap-3 text-sm leading-6 text-emerald-100/80 transition hover:text-white">
             <MessageCircle size={18} className="mt-1 shrink-0 text-emerald-300" />
-            <span>Message us about Greengate Property Ltd and its activities.</span>
+            <span>WhatsApp: 07723351297</span>
+          </a>
+          <a href="mailto:mithila@greengateproperty.co.uk" className="mt-4 flex items-start gap-3 text-sm leading-6 text-emerald-100/80 transition hover:text-white">
+            <span className="mt-1 shrink-0 text-emerald-300">✉</span>
+            <span>mithila@greengateproperty.co.uk</span>
+          </a>
+          <a href="tel:+447723351297" className="mt-4 flex items-start gap-3 text-sm leading-6 text-emerald-100/80 transition hover:text-white">
+            <span className="mt-1 shrink-0 text-emerald-300">☎</span>
+            <span>07723351297</span>
           </a>
           <div className="mt-4 flex items-start gap-3 text-sm leading-6 text-emerald-100/80">
             <MapPin size={18} className="mt-1 shrink-0 text-emerald-300" />
